@@ -9,7 +9,7 @@ body{
 	background-color: #03122f;
 	color: #e4e4e4;
 }
-#container{
+#page{
 	width: 1000px;
 	margin: auto;
 }
@@ -28,7 +28,7 @@ ul{
 	-webkit-justify-content: space-around;
 	justify-content: space-around;
 }
-#menu a{
+#menu{
 	display: block;
 	width: 300px;
 	height: 80px;
@@ -47,8 +47,12 @@ ul{
 /* ========== ホームメイン ========== */
 #main{
 	padding: 30px;
-	margin-top: 50px;
+	margin: 50px;
 }
 h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#center{
 	text-align: center;
 }
