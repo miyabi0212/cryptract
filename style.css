@@ -7,19 +7,20 @@
 }
 body{
 	background-color: #03122f;
+	color: #e4e4e4;
 }
 #container{
 	width: 1000px;
 	margin: auto;
 }
 
-/* ========== ヘッダー ========== */
+/* ========== ホームヘッダー ========== */
 header{
 	height: 726px;
 	background-image: url("image/title.png");
 }
 
-/* ========== メニュー ========== */
+/* ========== ホームメニュー ========== */
 ul{
 	list-style-type: none;
 	display: -webkit-flex;
@@ -40,6 +41,14 @@ ul{
 	color: #e4e4e4;
 	font: bold 20px fantasy;
 	top: 37px;
-	left: 130px;
+	left: 131px;
 }
 
+/* ========== ホームメイン ========== */
+#main{
+	padding: 30px;
+	margin-top: 50px;
+}
+h1{
+	text-align: center;
+}
