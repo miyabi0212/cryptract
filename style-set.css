@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* ========== 全体 ========== */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #03122f;
+	color: #e4e4e4;
+}
+#page{
+	width: 1000px;
+	margin: auto;
+}
+
+/* ========== ヘッダー ========== */
+header{
+	height: 231px;
+	background-image: url("image/head.png");
+}
+
+/* ========== メニュー ========== */
+#menu{
+	margin: 10px;
+	font: bold 15px fantasy;
+}
+#menu a{
+	text-decoration: none;
+}
+#menu font:hover{
+	color: #84cce4;
+}
+
+/* ========== メイン ========== */
+#main{
+	padding: 30px;
+	margin: 50px;
+}
+#center{
+	text-align: center;
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+ul{
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+}
+#mokuji{
+	width: 200px;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+#mokuji a{
+	text-decoration: none;
+	color: #e4e4e4;
+	font: bold 20px fantasy;
+}
+#mokuji a:hover{
+	color: #84cce4;
+}
