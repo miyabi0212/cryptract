@@ -14,13 +14,13 @@ body{
 	margin: auto;
 }
 
-/* ========== ホームヘッダー ========== */
+/* ========== ヘッダー ========== */
 header{
 	height: 726px;
 	background-image: url("image/title.png");
 }
 
-/* ========== ホームメニュー ========== */
+/* ========== メニュー ========== */
 ul{
 	list-style-type: none;
 	display: -webkit-flex;
@@ -29,30 +29,30 @@ ul{
 	justify-content: space-around;
 }
 #menu{
-	display: block;
 	width: 300px;
 	height: 80px;
 	padding: 10px;
+	display: block;
 	text-align: center;
 	position: relative;
 }
 #menu p{
-	position: absolute;
 	color: #e4e4e4;
 	font: bold 20px fantasy;
+	position: absolute;
 	top: 37px;
 	left: 131px;
 }
 
-/* ========== ホームメイン ========== */
+/* ========== メイン ========== */
 #main{
 	padding: 30px;
 	margin: 50px;
 }
+#center{
+	text-align: center;
+}
 h1{
 	text-align: center;
 	margin-bottom: 50px;
-}
-#center{
-	text-align: center;
 }
