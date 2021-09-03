@@ -17,7 +17,6 @@ body{
 /* ========== ヘッダー ========== */
 header{
 	height: 231px;
-	background-image: url("image/head.png");
 }
 
 /* ========== メニュー ========== */
@@ -40,7 +39,7 @@ header{
 #center{
 	text-align: center;
 }
-h1{
+h1,h2,h3{
 	text-align: center;
 	margin-bottom: 50px;
 }
@@ -64,4 +63,23 @@ ul{
 }
 #mokuji a:hover{
 	color: #84cce4;
+}
+table{
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+}
+th,td{
+	border: solid 2px #e4e4e4;
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+}
+#sub-table1 th{
+	width: 100px;
+	height: 10px;
+}
+#sub-table1 td{
+	text-align: left;
+	height: 10px;
 }
