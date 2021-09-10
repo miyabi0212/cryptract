@@ -30,47 +30,56 @@
 				
 			</ul>
 		</nav>
-		
+<!-- ========== 地理 ========== -->
 		<br><br><br><h1 id="tiri"><img src="image/icon-1c.png"><p>地　理</p></h1>
+		
+<!-- ========== システム【目次】 ========== -->
 		<br><br><br><h1 id="system"><img src="image/icon-2c.png"><p>システム</p></h1>
 		
 		<table>
 			<tr><th>ステータスについて</th>		<td><div id="menu"><a href="#syou"><font color="#1e8cc5">ステータス詳細</font></a></div></td>
 												<td><div id="menu"><a href="#syok"><font color="#1e8cc5">初期ステータス</font></a></div></td></tr>
-			<tr><th>レベルアップについて</th>	<td><div id="menu"><a href=""><font color="#1e8cc5">獲得レベルポイント</font></a></div></td>
-												<td><div id="menu"><a href=""><font color="#1e8cc5">成長ステータス</font></a></div></td></tr>
-			<tr><th>魔法について</th>			<td><div id="menu"><a href=""><font color="#1e8cc5">属性一覧</font></a></div></td>
-												<td><div id="menu"><a href=""><font color="#1e8cc5">魔法適性</font></a></div></td></tr>
+			<tr><th>レベルアップについて</th>	<td><div id="menu"><a href="#poin"><font color="#1e8cc5">獲得レベルポイント</font></a></div></td>
+												<td><div id="menu"><a href="#seit"><font color="#1e8cc5">成長ステータス</font></a></div></td></tr>
+			<tr><th>魔法について</th>			<td><div id="menu"><a href=""><font color="#1e8cc5">魔法一覧</font></a></div></td>
+												<td><div id="menu"><a href=""><font color="#1e8cc5">属性一覧</font></a></div></td></tr>
 			<tr><th>装備について</th>			<td><div id="menu"><a href=""><font color="#1e8cc5">装備枠一覧</font></a></div></td>
 												<td><div id="menu"><a href=""><font color="#1e8cc5">レア度・ランク</font></a></div></td></tr>
 		</table>
 		
+<!-- ========== システム【ステータス】 ========== -->
 		<br><br><br><h2><img src="image/sou-2.png"><p>≪━━━━━━━━━━ ステータスについて ━━━━━━━━━━≫</p></h2>
 		<h3 id="syou"><img src="image/sou-3.png"><p>≪───── ステータス詳細 ─────≫</p></h3>
 		
 		<div id="sub-table1">
 		<table>
-			<tr><th>ＬＶ</th><td>経験・レベル</td><td>成長度を示す。<br>初期から積んできた経験。<br>強さを示すわけではない。</td></tr>
+			<tr><th>ＬＶ</th><td>経験・レベル</td><td>成長を示す。<br>個体ごとに限界値がある。<br>強さを示すわけではない。</td></tr>
 			<tr><th>ＨＰ</th><td>生命・ヒットポイント</td><td>生命力を示す。<br>この値で傷を治すため、<br>０だと回復が出来ない。</td></tr>
 			<tr><th>ＭＰ</th><td>魔力・マナポイント</td><td>魔力量を示す。<br>この値を消費することで、<br>魔法や魔術が使用できる。</td></tr>
 			<tr><th>ＳＰ</th><td>気力・スキルポイント</td><td>気力量を示す。<br>この値を消費することで、<br>スキルが使用できる。</td></tr>
 			<tr><th>ＳＴＲ</th><td>物攻・ストレングス</td><td>物理攻撃力を示す。<br>STR武器で攻撃する際、<br>この値が参照される。</td></tr>
 			<tr><th>ＤＥＦ</th><td>物防・ディフェンス</td><td>物理防御力を示す。<br>物理ダメージを受ける際、<br>この値で軽減される。</td></tr>
-			<tr><th>ＲＥＳ</th><td>抵抗・レジスト</td><td>抵抗力を示す。<br>状態異常を受ける際、<br>この値で軽減される。</td></tr>
+			<tr><th>ＲＥＳ</th><td>抵抗・レジスト</td><td>抵抗力を示す。<br>状態異常を受ける際、<br>この値で無効化される。</td></tr>
 			<tr><th>ＭＡＧ</th><td>魔攻・マナパワー</td><td>魔法攻撃力を示す。<br>魔法や魔術で攻撃する際、<br>この値が参照される。</td></tr>
-			<tr><th>ＭＮＤ</th><td>魔防・マインド</td><td></td></tr>
-			<tr><th>ＩＮＴ</th><td>魔適・インテリジェンス</td><td></td></tr>
-			<tr><th>ＤＥＸ</th><td>器用・デクステリティ</td><td></td></tr>
-			<tr><th>ＡＧＩ</th><td>敏捷・アジリティ</td><td></td></tr>
-			<tr><th>ＣＲＩ</th><td>会心・クリティカル</td><td></td></tr>
-			<tr><th>ＡＰＰ</th><td>魅力・アピアランス</td><td></td></tr>
-			<tr><th>ＬＵＫ</th><td>幸運・ラック</td><td></td></tr>
-			<tr><th>ＰＩＥ</th><td>功績・パイアティ</td><td></td></tr>
-			<tr><th>ＫＲＭ</th><td>罪業・カルマ</td><td></td></tr>
+			<tr><th>ＭＮＤ</th><td>魔防・マインド</td><td>魔法防御力を示す。<br>魔法ダメ―ジを受ける際、<br>この値で軽減される。</td></tr>
+			<tr><th>ＩＮＴ</th><td>魔適・インテリジェンス</td><td>魔法適性を示す。<br>この値が、<br>魔法や魔術の習得に必要。</td></tr>
+			<tr><th>ＤＥＸ</th><td>器用・デクステリティ</td><td>器用さを示す。<br>DEX武器で攻撃する際、<br>この値が参照される。</td></tr>
+			<tr><th>ＡＧＩ</th><td>敏捷・アジリティ</td><td>敏捷性を示す。<br>この値でターン毎の、<br>行動順が決定する。</td></tr>
+			<tr><th>ＣＲＩ</th><td>会心・クリティカル</td><td>会心率を示す。<br>会心は与ダメージ1.5倍。<br>DEF無視ではない。</td></tr>
+			<tr><th>ＡＰＰ</th><td>魅力・アピアランス</td><td>魅力を示す。<br>RPで活きるかも。<br>一部スキルに役立つ。</td></tr>
+			<tr><th>ＬＵＫ</th><td>幸運・ラック</td><td>幸運を示す。<br>高いほど安心。<br>一部スキルに役立つ。</td></tr>
+			<tr><th>ＰＩＥ</th><td>功績・パイアティ</td><td>功績を示す。<br>冒険者としての実績。<br>分かりやすい評判。</td></tr>
+			<tr><th>ＫＲＭ</th><td>罪業・カルマ</td><td>罪業を示す。<br>犯した悪行の数。<br>分かりやすい評判。</td></tr>
 		</table>
 		</div>
 		
-		<br><h4>※</h4>
+		<div id="center"><br><h4>※　細かい点は随時追記していきます。</h4></div>
+		<br><p>　・　ＰＣの限界ＬＶは、作成時に１０Ｄ１０で決定する。<br>　　　以降限界ＬＶが伸びる際に、５の倍数に調整される。</p>
+		<br><p>　・　ＬＶは強さを示すわけではなく、あくまで初期からの成長を示しているため、魔物や幻獣はＬＶ１が多い。<br>　　　よってＬＶが高い魔物や幻獣には、より警戒が必要。</p>
+		<br><p>　・　ＨＰが０になっても回復が出来ないというだけで、死亡というわけではない。<br>　　　ＨＰが０の状態で致命的なダメージを受けると、死亡する。</p>
+		<br><p>　・　回復魔法や回復魔術の回復量は、ＭＡＧではなく、ＭＮＤが参照される。</p>
+		<br><p>　・　ＡＧＩが相手よりはるかに上回っていても、１ターンの間に２回行動することはできない。</p>
+		<br><p>　・　会心は基本的に物理ダメージで発生し、一部を除いて魔法ダメージでは発生しない。</p>
 		
 		<br><br><h3 id="syok"><img src="image/sou-3.png"><p>≪───── 初期ステータス ─────≫</p></h3>
 		
@@ -92,6 +101,45 @@
 			<tr><th>ＬＵＫ</th><td>固有</td></tr>
 			<tr><th>ＰＩＥ</th><td>０</td></tr>
 			<tr><th>ＫＲＭ</th><td>０</td></tr>
+		</table>
+		
+<!-- ========== システム【レベルアップについて】 ========== -->
+		<br><br><br><h2><img src="image/sou-2.png"><p>≪━━━━━━━━━━ レベルアップについて ━━━━━━━━━━≫</p></h2>
+		
+		<p>　・　１レベルアップにつき、ＨＰ・ＭＰ・ＳＰの成長ステータスが１段階上昇する。<br>　　　追加で成長パラメータを一つ、１段階上昇させるレベルポイントを得る。（ＨＰ・ＭＰ・ＳＰも選択可）</p>
+		
+		<br><br><h3 id="poin"><img src="image/sou-3.png"><p>≪───── 獲得レベルポイント ─────≫</p></h3>
+		
+		<table>
+			<tr><th>ＬＶ　　　０ ～ １０　</th><td>　１Ｐ</td></tr>
+			<tr><th>ＬＶ　　１１ ～ ２０　</th><td>　２Ｐ</td></tr>
+			<tr><th>ＬＶ　　２１ ～ ３０　</th><td>　３Ｐ</td></tr>
+			<tr><th>ＬＶ　　３１ ～ ４０　</th><td>　４Ｐ</td></tr>
+			<tr><th>ＬＶ　　４１ ～ ５０　</th><td>　５Ｐ</td></tr>
+			<tr><th>ＬＶ　　５１ ～ ６０　</th><td>　６Ｐ</td></tr>
+			<tr><th>ＬＶ　　６１ ～ ７０　</th><td>　７Ｐ</td></tr>
+			<tr><th>ＬＶ　　７１ ～ ８０　</th><td>　８Ｐ</td></tr>
+			<tr><th>ＬＶ　　８１ ～ ９０　</th><td>　９Ｐ</td></tr>
+			<tr><th>ＬＶ　　９１ ～ １００</th><td>１ＯＰ</td></tr>
+			<tr><th>ＬＶ　１０１ ～ ２００</th><td>１１Ｐ</td></tr>
+			<tr><th>↓</th><td>↓</td></tr>
+		</table>
+		
+		<br><br><h3 id="seit"><img src="image/sou-3.png"><p>≪───── 成長ステータス ─────≫</p></h3>
+		
+		<table>
+			<tr><th>該当ステータス</th><td>上昇値</td></tr>
+			<tr><th>ＨＰ</th><td>＋１０</td></tr>
+			<tr><th>ＭＰ</th><td>＋　５</td></tr>
+			<tr><th>ＳＰ</th><td>＋　５</td></tr>
+			<tr><th>ＳＴＲ</th><td>＋　５</td></tr>
+			<tr><th>ＤＥＦ</th><td>＋　５</td></tr>
+			<tr><th>ＲＥＳ</th><td>＋　５</td></tr>
+			<tr><th>ＭＡＧ</th><td>＋　５</td></tr>
+			<tr><th>ＭＮＤ</th><td>＋　５</td></tr>
+			<tr><th>ＩＮＴ</th><td>＋　５</td></tr>
+			<tr><th>ＤＥＸ</th><td>＋　５</td></tr>
+			<tr><th>ＡＧＩ</th><td>＋　５</td></tr>
 		</table>
 		
 		<br><br><br><h1 id="haikei"><img src="image/icon-3c.png"><p>背　景</p></h1>
